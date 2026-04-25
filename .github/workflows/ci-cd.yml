@@ -1,4 +1,4 @@
-```yaml
+
 name: "SmartPG — Payment Service CI/CD"
 
 on:
@@ -74,4 +74,3 @@ jobs:
       SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
       SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
       ALERT_EMAIL: ${{ secrets.ALERT_EMAIL }}
-```
