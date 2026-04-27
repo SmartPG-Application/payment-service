@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   sonarqube:
-    uses: SmartPG-Application/.github/.github/workflows/template-sonarqube.yml@main
+    uses: SmartPG-Application/.github/.github/workflows/template-sonarqube.yml@main 
     with:
       service_name: "smartpg-payments"
       service_path: "."
